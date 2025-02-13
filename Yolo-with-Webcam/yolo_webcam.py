@@ -9,7 +9,8 @@ import math
 # cap.set(4, 720)
 
 # for video capturing
-cap = cv2.VideoCapture("../Object Detection/Yolo with Webcam/bike.mp4")
+# cap = cv2.VideoCapture("../Object Detection/Yolo with Webcam/bike.mp4")
+cap = cv2.VideoCapture("C:/Users/jolvi/OneDrive/Desktop/Tech with Tim/Object Detection/Videos/bike.mp4")
 # Check if the video capture was successful
 if not cap.isOpened():
     print("Error: Could not open video.")
